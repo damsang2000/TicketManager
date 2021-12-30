@@ -1,0 +1,25 @@
+.ant-btn-dangerous {
+  color: var(--outlineText-color);
+  border-color: var(--outlineText-color);
+}
+.btn-handle:hover {
+  color: var(--outlineText-color);
+  border-color: var(--outlineText-color);
+}
+.btn-handle {
+  margin-left: 0.6rem;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 2.3rem;
+}
+.btn-handle:focus {
+  color: var(--outlineText-color);
+  border-color: var(--outlineText-color);
+}
+.btnInvoke {
+  background-color: var(--outlineText-color);
+  color: var(--textsidebar-color);
+  outline: none;
+  padding: 0.2rem 1rem;
+  border-radius: 8px;
+}

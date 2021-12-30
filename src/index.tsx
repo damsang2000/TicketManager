@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import './assets/boxicons-2.1.1/css/boxicons.min.css'
+import './assets/css/index.css'
+import Layouts from './component/layout/Layout'
+document.title='Insight'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Layouts />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,49 @@
+.sider {
+  background-color: var(--bg-color);
+  padding: 1.1rem 1.5rem;
+  max-width: 15rem !important;
+  min-width: 15rem !important;
+  height: 100vh;
+}
+.sider button:first-of-type {
+  margin-top: 4rem;
+}
+.sider .btn {
+  display: block;
+  width: 100%;
+  height: 2.7rem;
+  border-radius: 8px;
+  border: none;
+  margin: 8px 0px;
+  position: relative;
+  background-color: var(--bg-color);
+  transition: all 0.2s ease-in-out;
+}
+.sider .btn a {
+  color: var(--textcontent-color);
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 2.4;
+  text-align: left;
+  padding: 0 2.8rem;
+  transition: all 0.1s ease;
+}
+.sider .btn:hover {
+  color: white;
+  background-color: var(--bg-btn);
+}
+.sider .btn a:hover {
+  font-weight: bold;
+  color: white;
+}
+.sider .btn i {
+  top: 0.65rem;
+  left: 1rem;
+  position: absolute;
+  transition: all 0.2s;
+}
+.sider .btn i:hover ~ a {
+  color: var(--textsidebar-color);
+  font-weight: bold;
+}

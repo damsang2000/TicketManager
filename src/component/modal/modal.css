@@ -1,0 +1,66 @@
+.modal-filter {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: var(--textsidebar-color);
+  border-radius: 10px;
+  width: 35rem;
+  height: 28rem;
+  margin: 7% auto;
+  padding: 2rem;
+}
+.modal-content > .title-filter {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.modal-content h4 {
+  font-weight: bold;
+}
+
+.modal-content .custom {
+  margin-left: 190%;
+}
+.modal-content .end {
+  color: var(--requited);
+}
+.modal-content .inputTicket {
+  width: 50%;
+}
+.modal-content .ant-row {
+  margin-bottom: 0.7rem;
+}
+.modal-setting {
+  width: 44rem;
+}
+.ant-picker-panel .ant-picker-time-panel ~ .ant-picker-footer {
+  display: block !important;
+}
+.inputPrice {
+  width: 20%;
+}
+.modal-filter .modal-setting {
+  height: 37rem;
+  margin: 2% auto;
+}
+.ant-picker-suffix svg {
+  color: var(--outlineText-color);
+}
+.anticon-down svg {
+  color: var(--outlineText-color);
+}
+.ant-dropdown-trigger:hover {
+  border-color: var(--outlineText-color);
+}
+.ant-dropdown-trigger:hover span {
+  color: var(--outlineText-color);
+}
+.modal-setting .customMargin {
+  margin-left: 215%;
+}

@@ -1,0 +1,189 @@
+:root {
+  --bg-btn: #ffb800;
+  --textsidebar-color: #ffffff;
+  --textcontent-color: #1e0d03;
+  --bg-color: #f9f6f4;
+  --bg-search: #ede6e6;
+  --bg-tableHeader: #f1f4f8;
+  --bg-inputSearchTicket: #f7f7f8;
+  --outlineText-color: #ff993c;
+  --bg-selectdate: #ffba7b;
+  --requited:#FD5959;
+}
+@import "~antd/dist/antd.css";
+
+@import "../../component/header/header.css";
+@import "../../component/sidebar/sidebar.css";
+@import "../../component/date/date.css";
+@import "../../component/button/buton.css";
+@import "../../component/modal/modal.css";
+body {
+  font-size: 16px;
+}
+
+.logo {
+  width: 7rem;
+  height: 3rem;
+}
+.content {
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  margin: 0px 1.5rem 1.5rem 0;
+}
+
+.layout_content {
+  background-color: var(--bg-color);
+}
+.ant-table-pagination-right {
+  justify-content: center;
+}
+.tag {
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
+.ant-table-thead tr th {
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--textcontent-color);
+  background-color: var(--bg-tableHeader);
+}
+.searchTicket {
+  background-color: var(--bg-inputSearchTicket);
+  margin-bottom: 2rem;
+}
+.searchInput:-moz-placeholder {
+  font-style: italic;
+}
+.containerSearch {
+  position: relative;
+  display: inline-block;
+}
+.searchIcon1 {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.containerSearch a {
+  color: var(--textcontent-color);
+}
+.containerSearchAndButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cog {
+  transition: all 0.2s;
+}
+.btn-cog:hover i {
+  transform: rotate(50deg);
+}
+.btn-cog:hover p {
+  color: var(--textsidebar-color);
+  font-weight: bold;
+}
+.btn-cog p {
+  height: 100%;
+  margin: 0;
+  text-align: left;
+  padding: 0 2.7rem;
+  line-height: 2.4;
+}
+.option a {
+  display: block;
+  color: var(--textcontent-color);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-color);
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+.option a:hover {
+  background-color: var(--bg-btn);
+  font-weight: bold;
+  color: var(--textsidebar-color);
+}
+.option {
+  margin-left: 4rem;
+}
+.btn:hover i {
+  scale: 1.1;
+}
+.ant-pagination-item-active {
+  border-color: var(--bg-btn);
+}
+.ant-pagination-item-active:hover {
+  border-color: var(--bg-btn);
+}
+.ant-pagination-item-active:hover a {
+  color: var(--bg-btn);
+}
+.ant-pagination-item-active a {
+  color: var(--bg-btn);
+}
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.title2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.containerContent {
+  padding: 1rem 1.5rem;
+  background-color: var(--textsidebar-color);
+  border-radius: 8px;
+  height: 100%;
+}
+
+.btn:focus a {
+  color: var(--textsidebar-color);
+}
+.dfflex {
+  display: flex;
+  padding: 0;
+  height: 100%;
+  justify-content: space-between;
+}
+.containerContentLeft {
+  padding: 1rem 1.5rem;
+  width: 70%;
+  background-color: var(--textsidebar-color);
+  border-radius: 10px;
+}
+.containerContentRight {
+  background-color: var(--textsidebar-color);
+  width: 28%;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+}
+.titleFilter {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.ant-row {
+  margin-bottom: 1rem;
+}
+
+.btn-filter {
+  padding: 0 2.5rem;
+  margin: 1rem 30%;
+}
+.ant-table-thead .ant-table-cell {
+  font-size: 0.78rem;
+}
+.ant-table-tbody .ant-table-cell {
+  font-size: 0.78rem;
+}
+.ant-table-tbody .ant-table-cell a {
+  color: var(--outlineText-color);
+  display: flex;
+  align-items: center;
+}
+.apexcharts-toolbar {
+  display: none !important;
+}
+.row_turnover {
+  margin-bottom: 0;
+}
+

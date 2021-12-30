@@ -1,0 +1,47 @@
+
+.header {
+    background-color: var(--bg-color);
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  i {
+    font-size: 1.3rem;
+  }
+  .searchInput,
+  .searchTicket {
+    width: 20rem;
+    border-radius: 8px;
+    height: 2.3rem;
+    background-color: var(--bg-search);
+  }
+  .searchIcon {
+    position: absolute;
+    left: 18rem;
+    top: 1.3rem;
+    color: #1e0d03;
+    transition: all 0.2s ease-in-out;
+  }
+  .searchIcon:hover {
+    color: var(--bg-btn);
+  }
+  .header .avartar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+  .header .header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7rem;
+    margin-right: 1.5rem;
+  }
+  .header_right i {
+    color: var(--textcontent-color);
+    transition: all 0.2s;
+  }
+  .header_right i:hover {
+    color: var(--bg-btn);
+  }

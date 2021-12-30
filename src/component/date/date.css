@@ -1,0 +1,25 @@
+.ant-picker-date-panel
+  .ant-picker-body
+  .ant-picker-cell-selected
+  .ant-picker-cell-inner {
+  background-color: var(--bg-selectdate) !important;
+  border-radius: 50%;
+}
+.ant-picker-year-panel
+  .ant-picker-body
+  .ant-picker-cell-selected
+  .ant-picker-cell-inner {
+  background-color: var(--bg-selectdate) !important;
+}
+.ant-picker-cell-inner {
+  font-size: 0.7rem;
+}
+.ant-picker-panel-container {
+  border-radius: 10px;
+}
+.ant-picker-footer {
+  display: none;
+}
+.anticon-calendar svg {
+  color: var(--outlineText-color);
+}
